@@ -156,20 +156,22 @@
     overflow-y: scroll;
 }
 
-.delete-btn {
-    height: 5vh; /* Yüksekliği artırdım */
-    width: 30%; /* Genişliği artırdım */
+#delete-btn {
+    height: 50px; /* Yüksekliği artırdım */
+    width: 120px; /* Genişliği artırdım */
     border: none; /* Kenarları kaldırdım */
     border-radius: 10px;
     outline: none;
     background-color: #ff6b6b; /* Kırmızı ton */
     color: white; /* Yazı rengi beyaz */
-    font-family: 'Dancing Script', cursive; /* Havalı font */
+    font-family: 'Poppins', sans-serif; /* Modern font */
     font-size: 18px; /* Font boyutunu artırdım */
+    font-weight: 600; /* Daha kalın bir yazı tipi */
     transition: background-color 0.3s, transform 0.3s; /* Geçiş efekti ekledim */
+    cursor: pointer; /* Fare ile üzerine gelindiğinde imleci göster */
 }
 
-.delete-btn:hover {
+#delete-btn:hover {
     background-color: #e53935; /* Hover için daha koyu bir renk */
     transform: scale(1.05); /* Hover sırasında butonu büyütme efekti */
 }
