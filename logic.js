@@ -38,7 +38,7 @@ function addNoteonClick() {
     }
 
     if (text.value == "") {
-        alert("Cant add empty note");
+        alert("Can not add empty note");
         return;
     }
 
