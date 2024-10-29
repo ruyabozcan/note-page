@@ -158,13 +158,13 @@
 
 #delete-btn {
     height: 5vh; /* Yüksekliği artırdım */
-    width: 30%; /* Genişliği artırdım */
+    width: 25%; /* Genişliği artırdım */
     border: none; /* Kenarları kaldırdım */
     border-radius: 10px;
     outline: none;
-    background-color: #ff6b6b;
-    color: white; /* Yazı rengini beyaz yaptım */
-    font-family: 'Dancing Script', cursive; /* Aynı havalı font */
+    background-color: #ff6b6b; /* Kırmızı ton */
+    color: white; /* Yazı rengi beyaz */
+    font-family: 'Dancing Script', cursive; /* Havalı font */
     font-size: 18px; /* Font boyutunu artırdım */
     transition: background-color 0.3s; /* Geçiş efekti ekledim */
 }
@@ -172,6 +172,7 @@
 #delete-btn:hover {
     background-color: #e53935; /* Hover için daha koyu bir renk */
 }
+
 
 /* RESPONSİVE */
 
