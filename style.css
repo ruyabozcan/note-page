@@ -73,16 +73,18 @@
 
 #add-btn {
     height: 5vh;
-    width: 10vh;
+    width: 12vh; /* Genişliği artırdım */
     border-radius: 10px;
-    background-color: #81c784; /* Yumuşak yeşil */
+    background-color: #66bb6a; /* Daha koyu yeşil */
     color: white;
     transition: 0.3s;
     border: none;
+    font-family: 'Dancing Script', cursive; /* Havalı bir font */
+    font-size: 22px; /* Font boyutunu artırdım */
 }
 
 #add-btn:hover {
-    background-color: #66bb6a; /* Hover için biraz koyu ton */
+    background-color: #4caf50; /* Daha koyu bir hover rengi */
 }
 
 /******************************************************************/
@@ -155,19 +157,20 @@
 }
 
 #delete-btn {
-    height: 13%;
-    width: 25%;
-    border: 1px solid black;
+    height: 5vh; /* Yüksekliği artırdım */
+    width: 30%; /* Genişliği artırdım */
+    border: none; /* Kenarları kaldırdım */
     border-radius: 10px;
     outline: none;
     background-color: #ff6b6b;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
+    color: white; /* Yazı rengini beyaz yaptım */
+    font-family: 'Dancing Script', cursive; /* Aynı havalı font */
+    font-size: 18px; /* Font boyutunu artırdım */
+    transition: background-color 0.3s; /* Geçiş efekti ekledim */
 }
 
 #delete-btn:hover {
-    background-color: #e53935;
+    background-color: #e53935; /* Hover için daha koyu bir renk */
 }
 
 /* RESPONSİVE */
