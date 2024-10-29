@@ -1,4 +1,3 @@
-# note pad
-# ruya
-# bozcan
-# deneme
+# Note Screen
+# Ruya Bozcan
+# 
