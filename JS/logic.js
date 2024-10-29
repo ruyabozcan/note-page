@@ -145,3 +145,6 @@ function deleteNoteonClick(index){
 addBtn.addEventListener('click', addNoteonClick);
 
 showAllNotes();
+
+
+
