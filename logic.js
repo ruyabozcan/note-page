@@ -97,7 +97,7 @@ function showAllNotes() {
         str += `<div id="note1">
                     <div id="show-title">${prevSavedNotes_LS_Array[i].Title}</div>
                     <div id="show-text">${prevSavedNotes_LS_Array[i].Text}</div>
-                    <button id="delete-btn-${i}" onclick="deleteNoteonClick(${i})"> Delete </button>
+                    <button class="delete-btn" id="delete-btn-${i}" onclick="deleteNoteonClick(${i})"> Delete </button>
                 </div>
         `;
     }
