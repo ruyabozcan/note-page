@@ -164,7 +164,7 @@
     outline: none;
     background-color: #ff6b6b; /* Kırmızı ton */
     color: white; /* Yazı rengi beyaz */
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
     font-size: 18px; /* Font boyutunu artırdım */
     font-weight: 600; /* Daha kalın bir yazı tipi */
     transition: background-color 0.3s, transform 0.3s; /* Geçiş efekti ekledim */
