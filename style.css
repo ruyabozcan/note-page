@@ -26,11 +26,15 @@
 #heading {
     padding-top: 5vh;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Modern font */
     color: #317773; /* Canlı bir yeşil */
-    letter-spacing: 1px;
-    font-size: xx-large;
+    letter-spacing: 2px; /* Harf aralığını artırdım */
+    font-size: 2.5em; /* Daha büyük bir font boyutu */
+    text-transform: uppercase; /* Harfleri büyük yapmak için */
+    font-weight: 600; /* Kalınlık */
+    line-height: 1.2; /* Satır yüksekliği */
 }
+
 
 .addNote {
     min-height: 40vh;
@@ -72,21 +76,24 @@
 }
 
 #add-btn {
-    height: 5vh;
-    width: 12vh; /* Genişliği artırdım */
-    border-radius: 10px;
-    background-color: #66bb6a; /* Daha koyu yeşil */
-    color: white;
-    transition: 0.3s;
-    border: none;
-    font-family: 'Dancing Script', cursive; /* Havalı bir font */
-    font-size: 22px; /* Font boyutunu artırdım */
+    height: 50px; /* Yüksekliği ayarlayın */
+    width: 120px; /* Genişliği ayarlayın */
+    border: none; /* Kenarları kaldırdım */
+    border-radius: 10px; /* Köşeleri yuvarlaştırdım */
+    outline: none; /* Dış hatları kaldırdım */
+    background-color: #81c784; /* Arka plan rengi */
+    color: white; /* Yazı rengi beyaz */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 18px; /* Font boyutu */
+    font-weight: 600; /* Daha kalın bir yazı tipi */
+    transition: background-color 0.3s, transform 0.3s; /* Geçiş efektleri */
+    cursor: pointer; /* Fare imlecini göster */
 }
 
 #add-btn:hover {
-    background-color: #4caf50; /* Daha koyu bir hover rengi */
+    background-color: #66bb6a; /* Hover sırasında arka plan rengi */
+    transform: scale(1.05); /* Hover sırasında butonu büyütme efekti */
 }
-
 /******************************************************************/
 
 #showNotes {
@@ -114,7 +121,7 @@
     align-items: baseline;
     height: 40vh;
     width: 25%;
-    background-color: #fafafa; /* Hafif beyaz */
+    background-color: #edf3ed; /* Hafif beyaz */
     margin: 5vh 2vw;
     border-radius: 20px;
     border: 2px solid #e0e0e0;
@@ -157,22 +164,23 @@
 }
 
 /* Buton Stilleri */
-#delete-btn {
-    height: 50px; /* Yüksekliği artırdım */
-    width: 120px; /* Genişliği artırdım */
+.delete-btn {
+    height: 50px; /* Yüksekliği ayarlayın */
+    width: 120px; /* Genişliği ayarlayın */
     border: none; /* Kenarları kaldırdım */
-    border-radius: 10px;
-    outline: none;
-    background-color: #ff6b6b; /* Kırmızı ton */
+    border-radius: 10px; /* Köşeleri yuvarlaştırdım */
+    outline: none; /* Dış hatları kaldırdım */
+    background-color: #ff6b6b; /* Arka plan rengi */
     color: white; /* Yazı rengi beyaz */
-    font-family: 'Arial', cursive; /* Havalı font */
-    font-size: 20px; /* Font boyutunu artırdım */
-    transition: background-color 0.3s, transform 0.3s; /* Geçiş efekti ekledim */
-    cursor: pointer; /* Fare ile üzerine gelindiğinde imleci göster */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 18px; /* Font boyutu */
+    font-weight: 600; /* Daha kalın bir yazı tipi */
+    transition: background-color 0.3s, transform 0.3s; /* Geçiş efektleri */
+    cursor: pointer; /* Fare imlecini göster */
 }
 
-#delete-btn:hover {
-    background-color: #e53935; /* Hover için daha koyu bir renk */
+.delete-btn:hover {
+    background-color: #e53935; /* Hover sırasında arka plan rengi */
     transform: scale(1.05); /* Hover sırasında butonu büyütme efekti */
 }
 
